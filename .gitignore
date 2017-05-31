@@ -1,0 +1,27 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+npm-debug.log
+# compiled output
+/client/dist
+/client/coverage
+/tmp
+# dependencies
+/client/node_modules
+/server/node_modules
+/server/static
+/server/npm-debug.log
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+#System Files
+.DS_Store
+Thumbs.db
